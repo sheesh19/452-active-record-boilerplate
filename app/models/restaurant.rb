@@ -1,14 +1,4 @@
 class Restaurant < ActiveRecord::Base
-    # attr_accessors :name, :address
-
-    # def initialize(attributes = {})
-    #     @id = attributes[:id]
-    #     ...
-    # end
-
-    # def self.all
-    #     DB.execute('SELECT * FROM restaurants')
-    # end
-
-    # ...
+    # all CRUD SQL actions, initializer, attr_accessors are created with ActiveRecord::Base
+    # ALL, UPDATE, DESTROY, FIND, FIND_BY, COUNT
 end
